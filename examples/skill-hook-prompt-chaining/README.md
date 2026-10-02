@@ -41,6 +41,8 @@ A와 B는 별도의 `codex exec` 실행입니다. Bash가 A의 완료를 기다�
 
 ## 결과 확인
 
+대표 실행 결과는 [tasks.json](output/tasks.json)과 [checklist.md](output/checklist.md)에 보관합니다. 새 실행 결과와 Hook 로그는 Git에서 제외합니다.
+
 완료 시 표시되는 폴더에서 `tasks.json`과 `checklist.md`를 확인합니다.
 체크리스트는 다음과 같은 형태입니다. 문구는 실행마다 조금 다를 수 있습니다.
 

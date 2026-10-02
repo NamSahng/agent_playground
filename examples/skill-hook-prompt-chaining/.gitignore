@@ -1,2 +1,4 @@
 __pycache__/
-/output/
+/output/*
+!/output/tasks.json
+!/output/checklist.md
