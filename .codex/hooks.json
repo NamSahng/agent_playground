@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$(git rev-parse --show-toplevel)/examples/skill-hook-prompt-chaining/hooks/log_prompt.py\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
