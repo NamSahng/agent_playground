@@ -19,3 +19,4 @@ AI 개발 기술과 도구를 아주 작은 예제로 하나씩 직접 사용해
 | 예제 | 해볼 일 |
 | --- | --- |
 | [Skill · Hook · Prompt Chaining](examples/skill-hook-prompt-chaining/README.md) | 메모에서 할 일을 추출하고 체크리스트로 만들기 |
+| [Claudex Loop](examples/claudex-loop/README.md) | 단어 수 세기 함수로 Claude·Codex 교차 검토하기 |

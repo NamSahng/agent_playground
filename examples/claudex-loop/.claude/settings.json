@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 review_runner.py *)",
+      "Bash(python3 /home/nys/Desktop/agent-playground/examples/claudex-loop/review_runner.py *)",
+      "Bash(python3 --version)",
+      "Bash(codex --version)",
+      "Bash(claude --version)",
+      "Bash(python3 -m unittest *)",
+      "Bash(git rev-parse *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(date *)",
+      "Read(//tmp/claudex-*/**)",
+      "Edit(word_count.py)",
+      "Edit(test_word_count.py)",
+      "Edit(PLAN.md)",
+      "Edit(output/**)"
+    ]
+  }
+}

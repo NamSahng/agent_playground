@@ -1,0 +1,6 @@
+$claudex-loop PLAN.md로 작은 교차 검토 실습을 진행해줘.
+host=codex, builder=codex, mode=review, rounds=2.
+Codex: 계획 확정·보완, 지적 판단, 구현·테스트·수정.
+Claude: 독립 계획 검토와 새 세션의 최종 검토.
+AGENTS.md의 절차·검토 runner·기록 형식을 따르고 output/cli-codex/에 새 실행 기록을 남겨줘.
+계획·관련 코드를 검토 CLI 서비스에 전달하는 것을 승인한다. 커밋·푸시는 하지 마.

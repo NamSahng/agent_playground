@@ -1,0 +1,9 @@
+test_count (test_word_count.WordCountTests.test_count) ... ok
+test_reject_non_strings (test_word_count.WordCountTests.test_reject_non_strings) ... ok
+test_string_subclass (test_word_count.WordCountTests.test_string_subclass) ... ok
+test_string_subclass_overriding_split (test_word_count.WordCountTests.test_string_subclass_overriding_split) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

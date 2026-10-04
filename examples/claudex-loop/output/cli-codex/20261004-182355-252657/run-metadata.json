@@ -1,0 +1,30 @@
+{
+  "root": "/home/nys/Desktop/agent-playground/examples/claudex-loop",
+  "run": "/home/nys/Desktop/agent-playground/examples/claudex-loop/output/cli-codex/20261004-182355-252657",
+  "initial_head": "0d32d3ac08bc55302cde90b343c1dce0de1ee17b",
+  "plan_sha256": "2a1f4bf17d23d1e43e94081fb94d4855d176ed1f8cdc842dd18d5d341b921783",
+  "original_code_sha256": {
+    "word_count.py": "d70378f420d246155102e6570798e883ed26443e5dab6a2bb7c3d7d6ccc3c0e3",
+    "test_word_count.py": "db154302cd76b1d054e9d0102c3a6bb862701f0ddb5614e59323efd102edf0d8"
+  },
+  "unrelated_root_readme_sha256": "b3cb88d1ad42b0bf697cef6410edc4cdceda624c38b10dd0d2bb27abb99c741d",
+  "plan_review_result": "/tmp/claudex-idx6xxno/result.json",
+  "base": "0d32d3ac08bc55302cde90b343c1dce0de1ee17b",
+  "pre_build_recorded_at": "2026-10-04T18:25:13.162574+09:00",
+  "final_review_result": "/tmp/claudex-iymbi2ac/result.json",
+  "final_snapshot_sha256": "efed780f216808e1f3ab9e832c04bf2d59db7cc57b8655f2af35c5b109ebbf16",
+  "plan_review_rounds": 1,
+  "inspection_rounds": 1,
+  "fix_rounds": 0,
+  "test_exit_code": 0,
+  "final_verdict": "APPROVED",
+  "remaining_findings": [
+    {
+      "id": "DOC-1",
+      "severity": "low",
+      "path": "README.md",
+      "disposition": "기존 문서의 누락된 결과 링크. 지정된 함수·테스트 구현 범위 밖이므로 수정 보류."
+    }
+  ],
+  "finished_at": "2026-10-04T18:28:25.510917+09:00"
+}
